@@ -5,23 +5,39 @@
 }
 /*To remove padding/sizing issues*/
 body{
-	background-color:red;
+	background-color:#990000;
 }
 
 .sidebar {
 	display:relative;
-	background-color:#593D2E;
+	background:#593D2E repeat-y 50% 0;
 	border:0.25em solid #362218;
-	margin-top:100px;
-	margin-bottom:0px;
+	margin-top:200px;
+	margin-bottom:100px;
 	margin-left:0px;
-	max-width:200px;
+	width:200px;
 	float:left;
 }
 
-.main{
-	left-margin:200px;
+.header{
 	background-color:#000000;
+	padding:15px;
+	height:100px;
+}
+
+.navbar{
+	/*temporary until we make separate layout files*/
+	margin:0 auto;
+	text-align:center;
+	background:#593D2E;
+	height:50px;
+
+}
+
+.main{
+	width:1000px;
+	margin:0 auto;
+	padding-top:100px;
 }
 
 a {
